@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Đăng Ký</title>
+</head>
+<body>
+  <div class="container">
+    <form id="registerForm">
+      <h2>Đăng Ký</h2>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="password">Mật Khẩu:</label>
+      <input type="password" id="password" name="password" required>
+      <label for="confirmPassword">Nhập Lại Mật Khẩu:</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" required>
+      <button type="button" onclick="register()">Đăng Ký</button>
+      
+      <p>Đã có tài khoản? <a href="login.html">Đăng Nhập</a></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
